@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dave Gray">
+        <meta name="description" content="This page contains all the thing I am learning how to create as I learn HTML.">
+        <title>My first web page</title>
+        <link rel="icon" href="universal_assistent_icon.png" type="image/x-icon">
+        
+
+    </head>
+
+    <body>
+        <h1>Hello world !</h1>
+
+        <hr>
+        <address>ahoj</address>
+
+        <h2>Ahoj!</h2>
+        <p>This is <dfn>ahoj</dfn></p>
+        <ol>
+            <li><abbr title="Hello" translate="yes">Hi</abbr></li>
+        </ol>
+
+        <a href="universal_assistent_icon.png">Seznamy</a>
+
+        <address>
+            třešť<br>
+            telč<br>
+            jihlava
+        </address>
+
+        <!-- TODO: Add more places-->
+
+        <dl>
+            <dt>Mamika</dt>
+            <dd>Maminka je best</dd>
+        </dl>
+
+        <hr>
+
+        <a href="https://www.google.com/" >Google</a>
+
+    </body>
+
+</html>
