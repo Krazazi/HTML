@@ -1,46 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cz">
     <head>
         <meta charset="UTF-8">
-        <meta name="author" content="Dave Gray">
-        <meta name="description" content="This page contains all the thing I am learning how to create as I learn HTML.">
-        <title>My first web page</title>
+        <meta name="author" content="Kryštof Zažímal">
+        <meta name="description" content="All about Universal Assistent">
+        <title>Universal Assistent</title>
         <link rel="icon" href="universal_assistent_icon.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css" type="text/css">
-
+        <style>
+            .centered {
+            display: flex;
+            justify-content: center;
+        }
+        </style>
     </head>
 
     <body>
-        <h1>Hello world !</h1>
+        <header>   
+            <h1>Universal Assistent</h1>
 
-        <hr>
-        <address>ahoj</address>
+            <hr>
 
-        <h2>Ahoj!</h2>
-        <p>This is <dfn>ahoj</dfn></p>
-        <ol>
-            <li><abbr title="Hello" translate="yes">Hi</abbr></li>
-        </ol>
+            <div class="centered">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#Cojeto">Co je to <abbr title="Universal Assistent">UA</abbr></a>
+                        </li>
+                        <li>
+                            <a href="#stahovani">Stažení <abbr title="Universal Assistent">UA</abbr></a>
+                        </li>
+                        <li>
+                            <a href="#funkce">Funkce <abbr title="Universal Assistent">UA</abbr></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-        <a href="universal_assistent_icon.png">Seznamy</a>
+            <hr>
 
-        <address>
-            třešť<br>
-            telč<br>
-            jihlava
-        </address>
+        </header> 
 
-        <!-- TODO: Add more places-->
+        <main>
+            <article id="Cojeto">
+                <h2>Co je to?</h2>
 
-        <dl>
-            <dt>Mamika</dt>
-            <dd>Maminka je best</dd>
-        </dl>
+                <p title="Popis">Universal Assistent je program, <br>
+                    který vám dává na dosah ruky vše z čiností, <br>
+                    co nejčastěji na počítači používáte. <br>
+                    je napsán v <code>pythnu</code>. <br>
+                    Má spoustu funkcí jako překládání, <abbr title="Příkazový řádek">CMD</abbr>, <br>
+                    <strong>vyhledávání obrázku z google</strong> a <strong>měna a email</strong> podle názvu a další.   
+                </p>
 
-        <hr>
+                <p>Znělka aplikace:</p>
 
-        <a href="https://www.google.com/" >Google</a>
+                <audio controls>
+                    <source src="video1212.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                <br>
+
+                <p>Ikona aplikace:</p>
+
+                <img src="universal_assistent_icon.png" alt="icon" title="icon" width="250">
+
+            </article> 
+
+            <hr>
+
+            <article id="stahovani">
+                <fieldset>
+                    <legend>Stažení</legend>
+                    <p><strong>Je důležité vědět, že některé funkce ve starších verzích nebudou fungovat!</strong></p>
+                    <dl>
+                        <dt>Universal Assistent 5.1</dt>
+                        <dd><a href="Universall Assistent 5.1.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 5</dt>
+                        <dd><a href="Universal Assistent 5 CZ.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 4.3.1</dt>
+                        <dd><a href="Universal Assistent 4.3.1.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 4.3</dt>
+                        <dd><a href="Universal Assistent 4.3.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 4</dt>
+                        <dd><a href="Universal Assistent 4.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 3</dt>
+                        <dd><a href="Universal Assistent 3.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 2.1</dt>
+                        <dd><a href="ChatBot Version-2.1.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 2</dt>
+                        <dd><a href="ChatBot Version-2.zip" download>Stáhnout</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>Universal Assistent 1.2</dt>
+                        <dd><a href="ChatBot Version-1.2.zip" download>Stáhnout</a></dd>
+                    </dl>
+                </fieldset>
+
+            </article>
+
+            <hr>
+
+            <article id="funkce">
+                <h2>Funkce</h2>
+                <table>
+                    <tr>
+                        <th scope="col">Označení</th>
+                        <th scope="col">Popis</th>
+                    </tr>
+                    <tr>
+                        <td>nastavení</td>
+                        <td>napíše informace o vašem aktuálním stavu wifi, času atd</td>
+                    </tr>
+                    <tr>
+                        <td>clear</td>
+                        <td>vymaže všechny předešlé řádky</td>
+                    </tr>
+                    <tr>
+                        <td>exit</td>
+                        <td>vypne program</td>
+                    </tr>
+                    <tr>
+                        <td>čas</td>
+                        <td>ukáže aktuální čas(<abbr title="Angličtina">EN</abbr>)</td>
+                    </tr>
+                    <tr>
+                        <td>OVP</td>
+                        <td>okamžitě vypne počítač</td>
+                    </tr>
+                    <tr>
+                        <td>ORP</td>
+                        <td>okamžitě restartuje počítač</td>
+                    </tr>
+                    <tr>
+                        <td>OHP</td>
+                        <td>okamžitě hybernuje počítač</td>
+                    </tr>
+                    <tr>
+                        <td><abbr title="Příkazový řádek">CMD</abbr></td>
+                        <td>skrytě otevře <abbr title="Příkazový řádek">CMD</abbr> a můžete komunikovat přes něj</td>
+                    </tr>
+                    <tr>
+                        <td>stav baterie</td>
+                        <td>ukáže aktuální stav baterie vašeho zařízení</td>
+                    </tr>
+                    <tr>
+                        <td>hlasitost</td>
+                        <td>ukáže aktuální hlasitost počítače</td>
+                    </tr>
+                    <tr>
+                        <td>zvyš hlasitost o ...</td>
+                        <td>zvýší hlasitost o tolik kolik napíšete místo tří teček</td>
+                    </tr>
+                    <tr>
+                        <td>sniž hlasitost o ...</td>
+                        <td>sníží hlasitost o tolik kolik napíšete místo tří teček</td>
+                    </tr>
+                    <tr>
+                        <td>wifi</td>
+                        <td>zjistí jestli jste připojeni k wifi a k jaké</td>
+                    </tr>
+                    <tr>
+                        <td>full screen</td>
+                        <td>dá obraz na celou obrazovku</td>
+                    </tr>
+                    <tr>
+                        <td>help</td>
+                        <td>ukáže nápovědu</td>
+                    </tr>
+                    <tr>
+                        <td>icon</td>
+                        <td>ukáže iconu programu</td>
+                    </tr>
+                    <tr>
+                        <td>Version</td>
+                        <td>ukáže aktuální versi <abbr title="Universal Assistent">UA</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>Novinky</td>
+                        <td>ukáže aktuální novinky ve versi <abbr title="Universal Assistent">UA</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>zjisti wifi heslo</td>
+                        <td>ukáže všechna dostupná hesla k wifi</td>
+                    </tr>
+                    <tr>
+                        <td>+,-,*,/</td>
+                        <td>udělá operace s jakýmikoli čísli</td>
+                    </tr>
+                    <tr>
+                        <td>přelož do morseovky: ...</td>
+                        <td>přeloží text za : do morseovky</td>
+                    </tr>
+                    <tr>
+                        <td>přelož z morseovky: ...</td>
+                        <td>přeloží text za : z morseovky</td>
+                    </tr>
+                    <tr>
+                        <td>wikipedie</td>
+                        <td>zapne stránku wikipedie a po zaznění dotazů v ní vyhledá informace o dané věci</td>
+                    </tr>
+                    <tr>
+                        <td>youtube</td>
+                        <td>Vyhledá ti video</td>
+                    </tr>
+                    <tr>
+                        <td>měna</td>
+                        <td>ukáže kurz měn a převede částku z jedné měny do druhé</td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td>pošle email</td>
+                    </tr>
+                    <tr>
+                        <td>obrázek</td>
+                        <td>najde jakýkoli požadovaný obrázek</td>
+                    </tr>
+                    <tr>
+                        <td>vyhledat</td>
+                        <td>můžete cokoliv vyhledat</td>
+                    </tr>
+                    <tr>
+                        <td>seznam aplikací v počítači</td>
+                        <td>vypíše seznam všech aplikací v počítači</td>
+                    </tr>
+                    <tr>
+                        <td>přidat aplikaci</td>
+                        <td>můžete dát náztev a cestu k aplikaci a uložit na zapínání aplikací pomocí zkratek</td>
+                    </tr>
+                    <tr>
+                        <td>otevři =</td>
+                        <td>za rovná se napíšeme zkratku pod kterou jste si uložil aplikaci</td>
+                    </tr>
+                    <tr>
+                        <td>ukaž seznam aplikací</td>
+                        <td>ukáže všechny aplikace které máte uložené v seznamu</td>
+                    </tr>
+                    <tr>
+                        <td>vymaž =</td>
+                        <td>za rovná se napište zkratku a ono to vymaže v seznamu zkratku s tou aplikací</td>
+                    </tr>
+                    <tr>
+                        <td>CHROMEDRIVER</td>
+                        <td>je nezbytné toto vložit před používáním některých funkcí protože je tam příručka ke správnému vložení!</td>
+                    </tr>
+                    
+                </table>
+            </article>
+
+
+        </main>
+
+        <footer>
+            <hr>
+
+            <p>kontaktujte mě na <a href="mailto:krystof.zazimal@seznam.cz">e-mail</a></p>
+
+            <hr>
+
+            &lt;&lt;&lt;&copy;Universal Assistent 2023&gt;&gt;&gt;
+
+        </footer>
 
     </body>
+
 
 </html>
